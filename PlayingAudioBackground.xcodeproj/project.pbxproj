@@ -161,6 +161,11 @@
 				TargetAttributes = {
 					506807B21CA26D2F0040DB97 = {
 						CreatedOnToolsVersion = 6.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					506807C71CA26D2F0040DB97 = {
 						CreatedOnToolsVersion = 6.1;
@@ -405,6 +410,7 @@
 				506807D41CA26D2F0040DB97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		506807D51CA26D2F0040DB97 /* Build configuration list for PBXNativeTarget "PlayingAudioBackgroundTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +419,7 @@
 				506807D71CA26D2F0040DB97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
